@@ -1,8 +1,13 @@
 {
   "name": "node-onepass-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "1Password utils",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "tsc",
     "fmt": "bunx prettier --write ."
