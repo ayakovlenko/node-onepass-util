@@ -1,5 +1,7 @@
 # node-onepass-util
 
+[![NPM Version](https://img.shields.io/npm/v/node-onepass-util)](https://www.npmjs.com/package/node-onepass-util)
+
 A simple Node.js wrapper for the 1Password CLI (`op`) to retrieve secrets.
 
 ## Prerequisites
